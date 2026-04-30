@@ -2,7 +2,7 @@
 
 Minecraft resource pack for me and my friends, a collection of textures I like from various public resource packs, with some custom additions.
 
-Built for vanilla Java Edition 1.21.x, no server-side mods required.
+For Java Edition 1.21.x, no server-side mods required.
 
 ---
 
@@ -10,8 +10,8 @@ Built for vanilla Java Edition 1.21.x, no server-side mods required.
 
 ## Recommended mods
 
-- Entity Model Features (EMF) [Modrinth](https://modrinth.com/mod/entity-model-features) [ Curseforge](https://www.curseforge.com/minecraft/mc-mods/entity-model-features)
-- Entity Texture Features (ETF) [Modrinth](https://modrinth.com/mod/entitytexturefeatures) [ Curseforge](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric)
+- Entity Model Features (EMF) - [Modrinth](https://modrinth.com/mod/entity-model-features) [ Curseforge](https://www.curseforge.com/minecraft/mc-mods/entity-model-features)
+- Entity Texture Features (ETF) - [Modrinth](https://modrinth.com/mod/entitytexturefeatures) [ Curseforge](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric)
 ---
 ## Credits
 
