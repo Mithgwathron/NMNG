@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/netherite_hoe",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+					"when": "Oblivion",
+					"model": {
+						"type": "model",
+						"model": "swords:item/netherite_hoe"
+					}
+				},
+        {
+					"when": "Perdition",
+					"model": {
+						"type": "model",
+						"model": "swords:item/netherite_hoe"
+					}
+				}
+      ],
+      "fallback": {
+						"type": "model",
+						"model": "item/netherite_hoe"
+					}
+		},
+		"on_false": {
+						"type": "model",
+						"model": "item/netherite_hoe"
+					}
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/netherite_spear",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Aeglos",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/aeglos1"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/aeglos"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "Radagast",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/radagast1"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/radagast"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "Saruman",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/saruman1"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/saruman"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "Goblin",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/goblin1"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/goblin"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "Pallando",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/pallando1"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/pallando"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "Alatar",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/alatar1"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/alatar"
+                }
+              }
+            ]
+          }
+        }
+        
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": [
+              "firstperson_righthand",
+              "firstperson_lefthand",
+              "thirdperson_righthand",
+              "thirdperson_lefthand",
+              "head"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_spear_in_hand"
+            }
+          },
+          {
+            "when": [
+              "gui",
+              "ground",
+              "fixed",
+              "on_shelf"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_spear"
+            }
+          }
+        ]
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "firstperson_righthand",
+            "firstperson_lefthand",
+            "thirdperson_righthand",
+            "thirdperson_lefthand",
+            "head"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_spear_in_hand"
+          }
+        },
+        {
+          "when": [
+            "gui",
+            "ground",
+            "fixed",
+            "on_shelf"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_spear"
+          }
+        }
+      ]
+    }
+  },
+  "swap_animation_scale": 1.9
+}

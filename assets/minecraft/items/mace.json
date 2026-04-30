@@ -1,0 +1,387 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+          "when": "Grond",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/grond"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/grond1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "Skyfall",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/grond"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/grond1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Axe of Thrain",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/thrain"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/thrain1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Mace of Khamul",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/khamul"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/khamul1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Axe of Durin",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/durin"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/durin1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Dramborleg",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/dramborleg"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/dramborleg1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "Mace of Dain",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/dain"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/dain1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Mace of Bolg",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/bolg"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/bolg1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Barazanthual",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/barazanthual"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/barazanthual1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Mace of Balin",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/balin"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/balin1"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "when": "Mace of Azog the Defiler",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/azog"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/azog1"
+                }
+              }
+            ]
+          }
+        }
+        ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:time",
+    "source": "daytime",
+    "entries": [
+      {
+        "threshold": 0.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "swords:item/amarthdel"
+        }
+      },
+      {
+        "threshold": 0.541,
+        "model": {
+          "type": "minecraft:model",
+          "model": "swords:item/amarthdel1"
+        }
+      },
+      {
+        "threshold": 0.958,
+        "model": {
+          "type": "minecraft:model",
+          "model": "swords:item/amarthdel"
+        }
+      }
+    ]
+  }
+}

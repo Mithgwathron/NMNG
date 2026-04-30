@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Silence",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:fishing_rod/cast",
+            "on_true": {
+              "type": "model",
+              "model": "swords:item/silence_cast"
+            },
+            "on_false": {
+              "type": "model",
+              "model": "swords:item/silence"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:fishing_rod/cast",
+        "on_true": { "type": "model", "model": "item/fishing_rod_cast" },
+        "on_false": { "type": "model", "model": "item/fishing_rod" }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:fishing_rod/cast",
+      "on_true": { "type": "model", "model": "item/fishing_rod_cast" },
+      "on_false": { "type": "model", "model": "item/fishing_rod" }
+    }
+  }
+}

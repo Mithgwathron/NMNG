@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/netherite_shovel",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+					"when": "Grave Digger",
+					"model": {
+						"type": "model",
+						"model": "swords:item/netherite_shovel"
+					}
+				},
+        {
+					"when": "Exhumator",
+					"model": {
+						"type": "model",
+						"model": "swords:item/netherite_shovel"
+					}
+				}
+      ],
+      "fallback": {
+						"type": "model",
+						"model": "item/netherite_shovel"
+					}
+		},
+		"on_false": {
+						"type": "model",
+						"model": "item/netherite_shovel"
+					}
+  }
+}

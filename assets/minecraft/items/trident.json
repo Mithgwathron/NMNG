@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Stormride",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "model",
+              "model": "swords:item/trid"
+            },
+            "on_true": {
+              "type": "model",
+              "model": "swords:item/trid"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "item/trident"
+      }
+    },
+    "on_false": {
+      "type": "model",
+      "model": "item/trident"
+    }
+  }
+}

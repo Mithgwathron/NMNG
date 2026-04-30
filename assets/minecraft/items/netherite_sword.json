@@ -1,0 +1,619 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+          "when": "Amarthdel",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/amarthdel"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/amarthdel1"
+                }
+              }
+            ]
+          }
+        },
+        {
+        "when": "Dagger of Morgul",
+        "model": {
+          "type": "minecraft:model",
+          "model": "swords:item/morgul"
+        }
+      },
+      {
+        "when": "Angrist",
+        "model": {
+          "type": "minecraft:model",
+          "model": "swords:item/angrist"
+        }
+      },
+      {
+        "when": "Dagger",
+        "model": {
+          "type": "minecraft:model",
+          "model": "swords:item/dagger"
+        }
+      },
+      {
+        "when": "Knife",
+        "model": {
+          "type": "minecraft:model",
+          "model": "swords:item/knife"
+        }
+      },
+      {
+          "when": "Glamdring",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/glamdring"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/glamdring1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Acharn",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/acharn"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/acharn1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Anduril",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/anduril"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/anduril1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Aranruth",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/aranruth"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/aranruth1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Dagmor",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/dagmor"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/dagmor1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Gurthang",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/gurthang"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/gurthang1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Guthwine",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/guthwine"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/guthwine1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Hadhafang",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/hadhafang"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/hadhafang1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Herugrim",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/herugrim"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/herugrim1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Narsil",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/narsil"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/narsil1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Sword of Terror",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/terror"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/terror1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Black Blade",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/blackblade"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/blackblade1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Orcrist",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/orcrist"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/orcrist1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Thorondun",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/thorondun"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/thorondun1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Urfael",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/urfael"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/urfael1"
+                }
+              }
+            ]
+          }
+        },
+      {
+          "when": "Anguirel",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/anguirel"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/anguirel1"
+                }
+              }
+            ]
+          }
+        }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
+    }
+  }
+}

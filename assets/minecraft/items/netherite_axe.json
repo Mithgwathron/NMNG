@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/netherite_axe",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+					"when": "Worldslayer",
+					"model": {
+						"type": "model",
+						"model": "swords:item/netherite_axe"
+					}
+				},
+        {
+					"when": "Doombringer",
+					"model": {
+						"type": "model",
+						"model": "swords:item/netherite_axe"
+					}
+				}
+      ],
+      "fallback": {
+						"type": "model",
+						"model": "item/netherite_axe"
+					}
+		},
+		"on_false": {
+						"type": "model",
+						"model": "item/netherite_axe"
+					}
+  }
+}

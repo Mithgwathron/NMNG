@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "model": "minecraft:item/netherite_star",
+    "property": "minecraft:has_component",
+    "component": "minecraft:custom_name",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+					"when": "Silmaril",
+					"model": {
+						"type": "model",
+						"model": "swords:item/silmaril"
+					}
+				}
+      ],
+      "fallback": {
+						"type": "model",
+						"model": "item/nether_star"
+					}
+		},
+		"on_false": {
+						"type": "model",
+						"model": "item/nether_star"
+					}
+  }
+}
