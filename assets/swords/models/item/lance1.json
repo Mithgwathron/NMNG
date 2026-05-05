@@ -1,0 +1,29 @@
+{
+	"parent": "builtin/generated",
+	"textures": {
+		"layer0": "swords:item/lance1"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [20, -90, -40],
+			"translation": [0, 1.25, 2],
+			"scale": [3.4, 3.4, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [20, 90, 40],
+			"translation": [0, 1.25, 2],
+			"scale": [3.4, 3.4, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, -35],
+			"translation": [1.88, 1.5, 0.88],
+			"scale": [2.78, 2.78, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 35],
+			"translation": [1.88, 1.5, 0.88],
+			"scale": [2.78, 2.78, 0.68]
+		}
+	}
+}

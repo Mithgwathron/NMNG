@@ -10,14 +10,10 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-					"when": "Oblivion",
-					"model": {
-						"type": "model",
-						"model": "swords:item/netherite_hoe"
-					}
-				},
-        {
-					"when": "Perdition",
+					"when": [
+							"Inception",
+							"Perception"
+							],
 					"model": {
 						"type": "model",
 						"model": "swords:item/netherite_hoe"

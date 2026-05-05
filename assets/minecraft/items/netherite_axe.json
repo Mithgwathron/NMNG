@@ -10,14 +10,10 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-					"when": "Worldslayer",
-					"model": {
-						"type": "model",
-						"model": "swords:item/netherite_axe"
-					}
-				},
-        {
-					"when": "Doombringer",
+					"when": [
+							"Worldslayer",
+							"Doombringer"
+							],
 					"model": {
 						"type": "model",
 						"model": "swords:item/netherite_axe"

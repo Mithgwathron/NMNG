@@ -44,6 +44,40 @@
           }
         },
         {
+          "when": "Infinity Lance",
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "head"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/lance1"
+                }
+              },
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/lance"
+                }
+              }
+            ]
+          }
+        },
+        {
           "when": "Radagast",
           "model": {
             "type": "minecraft:select",

@@ -10,14 +10,10 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-					"when": "Grave Digger",
-					"model": {
-						"type": "model",
-						"model": "swords:item/netherite_shovel"
-					}
-				},
-        {
-					"when": "Exhumator",
+					"when": [
+							"Grave Digger",
+							"Exhumator"
+							],
 					"model": {
 						"type": "model",
 						"model": "swords:item/netherite_shovel"

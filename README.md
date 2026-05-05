@@ -21,6 +21,7 @@ This pack includes textures from the following public resource packs:
 - **[Enchant Icons](https://modrinth.com/resourcepack/enchant-icons-countxd)** by CountXD
 - **[HD Shield](https://modrinth.com/resourcepack/hd-shield)** by d_de_diego_d
 - **[Heraldic Banner Patterns](https://modrinth.com/resourcepack/heraldic-banner-patterns)** by Maf_
+- **[Too Many Renames](https://modrinth.com/resourcepack/vanilla-named-variants)** by mushirmickeyjoe
 - mod **[Middle-earth](https://modrinth.com/mod/middle-earth)** by Jukoz and others
 
 All credits go to the original authors. This pack is not intended for public redistribution.

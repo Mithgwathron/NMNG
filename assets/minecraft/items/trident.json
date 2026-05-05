@@ -9,29 +9,67 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "Stormride",
+          "when": ["Stormrider", "Stormbringer"],
           "model": {
-            "type": "minecraft:condition",
-            "property": "minecraft:using_item",
-            "on_false": {
-              "type": "model",
-              "model": "swords:item/trid"
-            },
-            "on_true": {
-              "type": "model",
-              "model": "swords:item/trid"
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui", "ground", "fixed", "on_shelf"],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "swords:item/trid"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_false": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/trident_in_hand",
+                "model": {
+                  "type": "minecraft:trident"
+                }
+              },
+              "on_true": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/trident_throwing",
+                "model": {
+                  "type": "minecraft:trident"
+                }
+              }
             }
           }
         }
       ],
       "fallback": {
-        "type": "model",
-        "model": "item/trident"
+        "type": "minecraft:special",
+        "base": "minecraft:item/trident_in_hand",
+        "model": {
+          "type": "minecraft:trident"
+        }
       }
     },
     "on_false": {
-      "type": "model",
-      "model": "item/trident"
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": ["gui", "ground", "fixed", "on_shelf"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:special",
+        "base": "minecraft:item/trident_in_hand",
+        "model": {
+          "type": "minecraft:trident"
+        }
+      }
     }
   }
 }
