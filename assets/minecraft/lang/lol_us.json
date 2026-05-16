@@ -1,5 +1,8 @@
 {
   "command.context.here": "<--[HERE]",
+  "item.minecraft.music_disc_13": "A legendary craft",
+  "item.minecraft.music_disc_13.desc": "Laudividni - To Outrun Time",
+  "jukebox_song.minecraft.13": "Laudividni - To Outrun Time",
   "command.context.parse_error": "%s at position %s: %s",
   "command.exception": "Could not parse command: %s",
   "command.expected.separator": "Expected whitespace to end one argument, but found trailing data",

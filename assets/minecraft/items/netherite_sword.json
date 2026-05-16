@@ -146,7 +146,8 @@
                   "firstperson_lefthand",
                   "thirdperson_righthand",
                   "thirdperson_lefthand",
-                  "head"
+                  "head",
+                  "fixed"
                 ],
                 "model": {
                   "type": "minecraft:model",
@@ -157,7 +158,6 @@
                 "when": [
                   "gui",
                   "ground",
-                  "fixed",
                   "on_shelf"
                 ],
                 "model": {
@@ -384,7 +384,8 @@
                   "firstperson_lefthand",
                   "thirdperson_righthand",
                   "thirdperson_lefthand",
-                  "head"
+                  "head",
+                  "fixed"
                 ],
                 "model": {
                   "type": "minecraft:model",
@@ -395,7 +396,6 @@
                 "when": [
                   "gui",
                   "ground",
-                  "fixed",
                   "on_shelf"
                 ],
                 "model": {
