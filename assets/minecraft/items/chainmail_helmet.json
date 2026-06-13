@@ -10,7 +10,7 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "Koruna",
+          "when": "Crown",
           "model": {
             "type": "minecraft:model",
             "model": "swords:item/koruna"
